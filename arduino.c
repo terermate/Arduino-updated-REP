@@ -27,7 +27,7 @@ void setup()
  pinMode(13,OUTPUT);
  pinMode(12,OUTPUT);
  
-  lcd.begin();
+  lcd.init();
   lcd.backlight();
   lcd.clear();
   lcd.setCursor(3,0);
