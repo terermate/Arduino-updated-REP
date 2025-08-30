@@ -71,7 +71,7 @@ void loop() {
       } 
       else if (inputPIN == adminPIN) {
         lcd.clear();
-        lcd.print("Admin Access");
+        lcd.print("Arkham Access");
         delay(1000);
         showResults();
       }
